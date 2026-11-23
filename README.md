@@ -69,8 +69,6 @@ Open [http://localhost:8501](http://localhost:8501) once Streamlit starts. Keep 
 
 ## Team
 
-Developed as part of the Applied AI Bootcamp. See the [original team repository](https://github.com/Afnanaal/Tech-Job-Market-Insights).
-
 - Afnan Alharbi
 - Taif Alharbi
 - Nawaf Alshaye
