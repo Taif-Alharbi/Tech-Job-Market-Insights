@@ -32,14 +32,16 @@ The title filter allows unaccented Latin letters, digits, spaces, and selected p
 
 The DataForge curated data is shared under the [Creative Commons Attribution–NonCommercial 4.0 International license (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/). Commercial use requires a separate DataForge license. Upstream license terms continue to apply to the underlying data.
 
-## Notebook visualizations
+## Project Workflow
 
-- Top 8 skills across Data Engineer, Machine Learning Engineer, and AI Engineer roles. Each percentage uses the postings with recorded skills for that role.
-- Top 10 job titles by posting count.
+1. **Data loading** — Load the DataForge S subset from Hugging Face.
+2. **Data cleaning and preprocessing** — Remove duplicate job IDs, standardize fields, handle missing categories, and validate salary ranges.
+3. **Exploratory data analysis** — Rank the most common job titles and compare frequently listed skills across Data Engineer, Machine Learning Engineer, and AI Engineer roles.
+4. **Dashboard data preparation** — Apply the job title character filter and export the cleaned dataset to CSV.
+5. **Dashboard development** — Build an interactive Streamlit dashboard with country and employment type filters.
 
-Both notebook charts use the cleaned data before the title filter. The dashboard reads the filtered CSV.
 
-## Findings from the dashboard dataset
+## Key Findings
 
 - **Senior Software Engineer** was the most frequent exact job title, with **288** postings.
 - The **United States** led among recorded countries, with **12,495** postings.
